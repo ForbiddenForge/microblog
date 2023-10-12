@@ -1,12 +1,10 @@
 import datetime
 import os
 
-from dotenv import load_dotenv
+
 from pymongo import MongoClient
 
 from flask import Flask, render_template, request
-
-load_dotenv()
 
 
 def create_app():
